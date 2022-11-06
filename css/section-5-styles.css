@@ -193,9 +193,13 @@
     .s5-head span {
         font-size: 19.2314px;
         line-height: 24px;
+        letter-spacing: 0.02rem;
+        margin-left: -4px;
     }
     .s5-head img {
         width: 10px;
+        margin-left: -2px;
+        margin-top: 1px;
     }
     .s5-info {
         font-size: 14px;

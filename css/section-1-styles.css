@@ -195,7 +195,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 17px;
-    letter-spacing: 0.025rem;
+    letter-spacing: 0.037rem;
 }
 .abstract-hand small {
     font-family: 'Rajdhani';
@@ -330,16 +330,19 @@
     .vertical-line {
         opacity: 0;
     }
-
+    .small-profile span {
+        letter-spacing: 0.02rem;
+        margin-right: 1px;
+    }
 
     .inside-figure-butt img {
         width: 25%;
     }
     .nft-img-1 {
-        width: 325px;
+        width: 324px;
         height: 386px;
         border-radius: 5px;
-        margin-left: -4px;
+        margin-left: -3px;
     }
     .s1-nft-block {
         order: 3;
