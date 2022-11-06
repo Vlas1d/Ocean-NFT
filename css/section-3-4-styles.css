@@ -25,6 +25,7 @@
 }
 .buttons-box {
     display: flex;
+    flex-direction: column;
     max-width: 800px;
     justify-content: start;
     gap: 44px;
