@@ -155,6 +155,9 @@
     .nft-item {
         width: 304px;
     }
+    .top-nfts .swiper-slide {
+        width: 327px!important;
+    } 
     .nft-item > img {
         width: 304px;
     }
