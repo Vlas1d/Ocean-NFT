@@ -144,6 +144,8 @@
     }
     .s6-background {
         height: 300px;
+        background: url('../img/s6-background.png');
+        background-size: cover;
     }
     .s6-container {
         display: flex;
