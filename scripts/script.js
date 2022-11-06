@@ -39,7 +39,9 @@ const swiper1 = new Swiper('.nft-profiles', {
 
 $('.burger-button').on('click', function() {
     $('.mobile-menu-hide').toggleClass('mobile-menu');
+    $('.burger-button').toggleClass('burger-button-active');
 });
+
 $('.mobile-butt').on('click', function() {
     $('.top-seller-hide').toggleClass('top-seller-show');
     if(!$('.top-seller-hide').hasClass('top-seller-show')) {
