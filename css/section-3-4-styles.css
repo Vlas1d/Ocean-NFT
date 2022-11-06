@@ -1,0 +1,309 @@
+.third-section {
+    position: relative;
+    max-width: 1438px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 81px 25px 0px 25px;
+    gap: 47px;
+}
+.collection-box {
+    display: flex;
+    max-width: 800px;
+    flex-direction: column;
+    gap: 37px;
+    margin-top: 50px;
+}
+.collection-box h1 {
+    margin-left: 1px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    letter-spacing: 0.035rem;
+}
+.buttons-box {
+    display: flex;
+    max-width: 800px;
+    justify-content: start;
+    gap: 44px;
+    margin-top: -1px;
+}
+.buttons-box span {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 39px;
+    width: 100%;
+}
+.buttons-box div {
+    font-size: 26.531px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.collection-box span {
+    font-size: 19.8983px;
+}
+.collection-view-all {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 16px;
+    padding-top: 4px;
+    padding-right: 16px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.8983px;
+    line-height: 25px;
+}
+
+.opacity-button {
+    max-width: 373px;
+    width: 40vw;
+    height: 103px;
+    border-left: 2px solid #4079d572;
+    border-right: 2px solid #ffa6fb7b;
+    background-image: linear-gradient(-92.23deg, #ffa6fb7b 21.43%, #dd9ef477 40%, #4079d572 117.04%), 
+    linear-gradient(-92.23deg, #ffa6fb7b 21.43%, #dd9ef477 40%, #4079d572 117.04%);
+		background-size: 100% 2px;
+		background-position: 0 100%, 0 0;
+		background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.531px;
+    line-height: 33px;
+
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 2px;
+
+}
+.opacity-button:hover {
+    box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+    border: 3px solid transparent;
+    background: linear-gradient(-92.23deg, #406AFF -17%, #3BACE2 0%, #B936EE 50%, #FF56F6 80%) padding-box, 
+    linear-gradient(-92.23deg, #ffa6fb 21.43%, #dd9ef4 50%, #407ad5 117.04%) border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.collection-image-box {
+    width: 436px;
+    margin-right: 40px;
+}
+
+
+
+
+.four-section {
+    position: relative;
+    max-width: 1433px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 160px 25px 0px 25px;
+    gap: 40px;
+}
+.s4-head {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.s4-head h1 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    letter-spacing: 0.035rem;
+}
+.s4-head span {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+.s4-head img {
+    margin-bottom: 8px;
+}
+.nft-profiles {
+    display: flex;
+    justify-content: left;
+    overflow: hidden;
+}
+.nft-profile-box {
+    position: relative;
+    width: 437px;
+    height: 565px;
+    background: linear-gradient(90deg, rgba(34, 20, 73, 0.5),rgba(34, 20, 73, 0.7)) padding-box,
+    linear-gradient(140deg, #7b6c90 21.43%, #7b6c9068 80%, #7b6c9006 107.04%) border-box;
+    border: 3px solid transparent;
+}
+
+.nft-profile-box-bg {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 431px;
+    height: 561px;
+    margin: 0px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) -1.52%, rgba(255, 255, 255, 0.1) 104.35%);
+    -webkit-backdrop-filter: blur(30.4001px);
+    backdrop-filter: blur(30.4001px);
+}
+.nft-profile-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.nft-profile-avatar {
+    width: 164px;
+    height: 164px;
+    margin-top: -105px;
+    margin-bottom: 11px;
+}
+.nft-profile-items h3 {
+    font-family: 'Rajdhani';
+    font-size: 24.3201px;
+}
+.nft-profile-items small {
+    display: flex;
+    font-family: 'Rajdhani';
+    font-size: 20.1601px;
+    color: #FFB1EE;
+    margin-left: 19px;
+    margin-top: -7px;
+    gap: 8px;
+}
+.profile-statistic {
+    font-family: 'Rajdhani';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 66px;
+    line-height: 8px;
+    margin: 28px 6px 49px 1px;
+}
+.profile-statistic div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-statistic span {
+    font-size: 19.8061px;
+}
+.profile-statistic h1 {
+    font-size: 31.6897px;
+}
+.profile-button {
+    width: 240px;
+    height: 55px;
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.8983px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 5px;
+}
+.profile-button small {
+    color: #fff;
+    margin-left: 0px;
+    margin-top: -2px;
+}
+@media (min-width: 992px) {
+    .four-section > a {
+        display: none;
+    }
+}
+@media (max-width: 991.98px) {
+    .third-section {
+        width: 100%;
+        padding: 8px 25px 0px 25px;
+        gap: 3.5px;
+    }
+    .collection-box > h1 {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.011rem;
+    }
+    .collection-box {
+        gap: 12px;
+    }
+    .collection-box > a span {
+        font-size: 8.24417px;
+        line-height: 10px;
+    }
+    .collection-box > a {
+        margin-right: 0px;
+        margin-top: 6px;
+        padding: 0px;
+        gap: 6.5px;
+    }
+    .collection-image-box {
+        display: flex;
+        justify-content: center;
+        margin-right: -5px;
+    }
+    .buttons-box {
+        gap: 19px;
+        justify-content: start;
+        flex-direction: column;
+    }
+    .buttons-box span {
+        column-gap: 15px;
+        row-gap: 16px;
+    }
+    .opacity-button {
+        width: 155px;
+        height: 42.5px;
+        background-size: 100% 1px;
+        border-left: 2px solid #4079d572;
+        border-right: 2px solid #ffa6fb7b;
+    }
+    .buttons-box div {
+        font-size: 10.9922px;
+        line-height: 14px;
+    }
+    .collection-image-box img {
+        width: 185.89px;
+        height: 347.72px;
+        
+    }
+    .four-section {
+        padding: 111px 0px 0px 26px;
+        gap: 22px;
+    }
+    .nft-profile-box > * {
+        transform: scale(0.693);
+        margin-top: -81px;
+        margin-left: 0.5px;
+    }
+    .nft-profile-box {
+        width: 303px;
+        height: 391.13px;
+    }
+    .s4-head > a {
+        display: none;
+    }
+    .s4-head > h1 {
+        font-size: 18.0606px;
+        line-height: 23px;
+        letter-spacing: 0.012rem;
+    }
+    .four-section > a .inside-figure-butt {
+        background: rgba(58, 49, 101, 1);
+    }
+    .four-section > a {
+        display: block;
+        align-self: center;
+        margin-right: 26px;
+        margin-top: 30px;
+    }
+}
