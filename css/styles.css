@@ -277,6 +277,48 @@ hr {
         height: 3px;
         border-radius: 3px;
     }
+    .burger-button-active {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        position: relative;
+        background: transparent;
+        width: 22px;
+        height: 19px;
+        border: 0px;
+        padding: 0px;
+        margin-top: 2px;
+    }
+    .burger-button-active hr {
+        opacity: 0;
+    }
+    .burger-button-active::after {
+        content: "";
+        position: relative;
+        border: 1px solid #fff;
+        background-color: #fff;
+        margin: 0px;
+        width: 22px;
+        height: 3px;
+        border-radius: 3px;
+        transform: rotate(45deg);
+        margin-bottom: 12px;
+    }
+    .burger-button-active::before {
+        content: "";
+        position: relative;
+        border: 1px solid #fff;
+        background-color: #fff;
+        margin: 0px;
+        width: 22px;
+        height: 3px;
+        border-radius: 3px;
+        transform: rotate(-45deg);
+        margin-top: 5px;
+    }
+
+
     .mobile-menu-hide {
         display: none;
         gap: 40px;
