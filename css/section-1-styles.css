@@ -1,0 +1,395 @@
+.first-section {
+    position: relative;
+    max-width: 1452px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 115px 25px 110px 25px;
+}
+.big-text {
+    font-family: 'Spartan';
+    font-size: 66.3276px;
+    line-height: 137.4%;
+}
+.big-text span {
+    margin-left: 1px;
+}
+.text-gradient {
+    background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.s1-text-block {
+    position: relative;
+    max-width: 848px;
+    margin-left: 2px;
+    order: 1;
+}
+.s1-text-raj {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.531px;
+    max-width: 658px; 
+    margin-top: 20px; 
+    line-height: 44px;
+    margin-left: 1px;
+}
+.button-block {
+    position: relative;
+    display: flex;
+    margin-top: 42px;
+    margin-left: -2px;
+    align-items: center;
+    justify-content: start;
+    gap: 37px;
+}
+.text-gradient-1 {
+    background: linear-gradient(89.89deg, #42A6E3 2.33%, #FF56F6 101.4%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.outside-figure-butt {
+    position: relative;
+    width: 254px;
+    height: 68px;
+    border-radius: 25px 5px 25px 5px;
+    background: linear-gradient(92.23deg, #ffa6fb 21.43%, #dd9ef4 50%, #407ad5 117.04%);
+    clip-path: polygon(
+        0% 28%,
+        17% 0%,
+        100% 0%,
+        100% 73%,
+        85% 100%,
+        0% 100%
+    );
+}
+.inside-figure-butt {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 250px;
+    height: 64px;
+    border-radius: 25px 5px 25px 5px;
+    background: linear-gradient(92.23deg, #406AFF -17%, #3BACE2 0%, #B936EE 50%, #FF56F6 80%);
+    clip-path: polygon(
+        0% 28.5%,
+        17% 0%,
+        100% 0%,
+        100% 72.5%,
+        85% 100%,
+        0% 100%
+    );
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 12px;
+    padding-right: 31px;
+    font-size: 19px;
+}
+.statistic-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    max-width: 479px;
+}
+.statistic-box div {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Aldrich';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39.7965px;
+    line-height: 53px;
+}
+.alethia-font {
+    font-family: 'Alethia Next';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 15px;
+    letter-spacing: 0.07rem;
+}
+.vertical-line {
+    height: 63px;
+    width: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    margin-top: 8px;
+    margin-right: 13px;
+}
+.partners {
+    max-width: 1383px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-left: 7px;
+    margin-top: 103px;
+    order: 3;
+}
+.s1-nft-block {
+    max-width: 600px;
+    /*background: rgba(32, 8, 59, 1);*/
+    margin-right: 5px;
+    margin-top: 15px;
+    order: 2;
+}
+.nft-img-1 {
+    width: 402px;
+    height: 477px;
+    border-radius: 5rem 1rem 1rem 1rem;
+    box-shadow: 0px 3px 9px -2px #000;
+    clip-path: polygon(
+        0% 13%,
+        23% 0%,
+        100% 0%,
+        100% 0%,
+        110% 120%,
+        110% 120%,
+        0% 120%,
+        0% 120%
+    );
+}
+.abstract-hand {
+    position: relative;
+    width: 336.06px;
+    height: 181.3px;
+    border: 3px solid transparent;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
+    -webkit-backdrop-filter: blur(30.4001px);
+    backdrop-filter: blur(30.4001px);
+    border-radius: 8.84367px;
+    border-top-left-radius: 59px;
+    display: flex;
+    margin-top: -118px;
+    margin-left: 157px;
+    justify-content: space-between;
+    clip-path: polygon(
+        0% 25%,
+        14% 0%,
+        100% 0%,
+        100% 100%,
+        100% 100%,
+        0% 100%
+    );
+    padding: 30px 16px 15px 20px;
+}
+.abstract-hand::after {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 336.06px;
+    height: 181.3px;
+    background: url('../border1.png');
+}
+.abstract-1 {
+    display: flex;
+    flex-direction: column;
+}
+.abstract-hand b {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 0.025rem;
+}
+.abstract-hand small {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.0546px;
+}
+.s1-reserve-price {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 7px;
+}
+.s1-reserve-price b {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9.71776px;
+    line-height: 12px;
+}
+.small-profile {
+    padding-top: 6px;
+    padding-bottom: 18px;
+    display: flex;
+    gap: 3px;
+}
+.small-profile span {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.4764px;
+    line-height: 31px;
+}
+.abstract-2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4.5px;
+    gap: 8.5px;
+}
+.time-box {
+    display: flex;
+    justify-content: start;
+    line-height: 2px;
+    gap: 19.5px;
+    margin-left: 10px;
+}
+.time-box div {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.time-box span {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.6873px;
+    line-height: 15px;
+}
+.small-button {
+    width: 124px;
+    height: 42px;
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.6873px;
+    line-height: 23px;
+    border-radius: 5px;
+    margin-top: 25px;
+    gap: 7px;
+}
+
+@media (max-width: 991.98px) {
+    .first-section {
+        padding: 23px 35px 0px 29px;
+    }
+    .s1-text-block {
+        width: 100%;
+    }
+    .big-text span {
+        margin-left: 0px;
+    }
+    .s1-text-raj {
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .outside-figure-butt {
+        width: 136px;
+        height: 36px;
+        border-radius: 3px 3px 3px 3px;
+        margin-top: -10px;
+    }
+    .inside-figure-butt {
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        width: 134px;
+        height: 34px;
+        border-radius: 3px 3px 3px 3px;
+        gap: 8px;
+        padding-right: 15px;
+    }
+    .inside-figure-butt span {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .button-block {
+        gap: 20px;
+    }
+    .text-gradient-1 {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: -8px;
+    }
+    .statistic-box {
+        width: 95%;
+        margin-top: 38px;
+    }
+    .statistic-box div {
+        font-size: 18px;
+        line-height: 28px;
+        gap: 5.5px;
+    }
+    .alethia-font {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .vertical-line {
+        opacity: 0;
+    }
+
+
+    .inside-figure-butt img {
+        width: 25%;
+    }
+    .nft-img-1 {
+        width: 325px;
+        height: 386px;
+        border-radius: 5px;
+        margin-left: -4px;
+    }
+    .s1-nft-block {
+        order: 3;
+        margin-top: 59px;
+    }
+    .partners {
+        margin-left: 2px;
+        margin-top: 14px;
+        order: 2;
+        row-gap: 33px;
+    }
+    .partners > img:nth-child(1) {
+        width: 143px;
+    }
+    .partners > img:nth-child(2) {
+        width: 93px;
+    }
+    .partners > img:nth-child(3) {
+        width: 165px;
+    }
+    .partners > img:nth-child(4) {
+        width: 106px;
+        margin-bottom: 4px;
+    }
+    .abstract-hand {
+        position: relative;
+        width: 324px;
+        height: 175px;
+        margin-top: -50px;
+        margin-left: -3px;
+        justify-content: space-between;
+        padding: 27px 12px 15px 16px
+    }
+    .abstract-hand::after {
+        top: -3px;
+        left: -3px;
+        width: 324px;
+        height: 175px;
+        background-size: cover;
+    }
+    .abstract-1 {
+        transform: scale(0.95, 0.97);
+    }
+    .abstract-2 {
+        transform: scale(0.96, 0.97);
+    }
+    .big-text {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+    }
+}

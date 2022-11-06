@@ -1,0 +1,252 @@
+.five-section {
+    position: relative;
+    max-width: 1438px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 25px 159px 25px;
+    gap: 24px;
+}
+.s5-head {
+    display: flex;
+    gap: 6px;
+    margin-left: 23px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.531px;
+    line-height: 33px;
+    letter-spacing: 0.026rem;
+}
+.s5-head img {
+    margin-top: 5px;
+}
+.s5-head b {
+    color: #FF56F6;
+}
+.s5-info {
+    max-width: 507px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.6873px;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 11px;
+}
+.top-sellers-box {
+    display: flex;
+    flex-wrap: wrap;
+    /*width: 1385px;*/
+    width: 100%;
+    justify-content: center;
+    margin-top: 34px;
+    margin-left: -4px;
+    row-gap: 35px;
+    column-gap: 36px;
+}
+.top-sellers-item {
+    position: relative;
+    width: 436px;
+    height: 123px;
+    border: 2px solid transparent;
+    backdrop-filter: blur(37.9079px);
+    border-radius: 28.5719px;
+    background: linear-gradient(rgba(33, 15, 66, 1), rgba(33, 15, 66, 1)) padding-box,
+    linear-gradient(140deg, #7b6c90 21.43%, #7b6c9068 80%, #7b6c9006 107.04%) border-box;
+
+    
+    padding-top: 1.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sellers-number {
+    width: 38px;
+    display: flex;
+    justify-content: end;
+}
+.top-sellers-left {
+    display: flex;
+    gap: 15.5px;
+    align-items: center;
+}
+.top-sellers-left span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.0479px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 33px;
+}
+.top-sellers-left div {
+    display: flex;
+    flex-direction: column;
+    margin-left: -2.5px;
+}
+.top-sellers-left small {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.7568px;
+    line-height: 36px;
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.procent-button {
+    width: 100.6px;
+    height: 35.37px;
+    position: relative;
+	border-radius: 17.5283px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 18px;
+}
+.procent-button small {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.7012px;
+    line-height: 47px;
+}
+.procent-button-green small {
+    color: #00FF66;
+}
+.procent-button-red small {
+    color: #FF0000;
+}
+.procent-button-green {
+    border: 1px solid transparent;
+    background: linear-gradient(rgba(32, 8, 59, 1), rgba(32, 8, 59, 1)) padding-box,
+    linear-gradient(to right, #02dc5957, #00d355) border-box; 
+}
+.procent-button-red {
+    border: 1px solid transparent;
+    background: linear-gradient(rgba(32, 8, 59, 1), rgba(32, 8, 59, 1)) padding-box,
+    linear-gradient(to right, #ff00004e, #FF0000) border-box; 
+}
+.procent-button::after{
+    content: '';
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+    right: 0px;
+    left: 0px;
+    border-radius: 17.5283px;
+}
+.procent-button-red::after {
+    background: linear-gradient(180deg, rgba(235, 20, 20, 0.15) 0%, rgba(235, 20, 20, 0.1005) 100%);
+}
+.procent-button-green::after {
+    background: rgba(0, 179, 71, 0.15);
+}
+.s5-button {
+    width: 240px;
+    height: 56px;
+    margin-left: 12px;
+    margin-top: 35px;
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.8983px;
+    line-height: 25px;
+}
+
+@media (min-width: 992px) {
+    .mobile-butt {
+        display: none;
+    }
+}
+@media (max-width: 991.98px) {
+    .top-sellers-item {
+        width: 316.8px;
+        height: 89.75px;
+        border-radius: 20.7108px;
+    }
+    .top-seller-hide {
+        display: none;
+    }
+    .top-seller-show {
+        display: block;
+    }
+    .five-section {
+        padding: 108px 26px 106px 10px;
+        gap: 18px;        
+    }
+    .desktop-butt {
+        display: none;
+    }
+    .mobile-butt .inside-figure-butt {
+        background: rgba(35, 20, 75, 1);
+    }
+    .mobile-butt {
+        display: block;
+        align-self: center;
+        margin-right: -16px;
+        margin-top: 25px;
+        background: transparent;
+        border: transparent;
+    }
+    .s5-head span {
+        font-size: 19.2314px;
+        line-height: 24px;
+    }
+    .s5-head img {
+        width: 10px;
+    }
+    .s5-info {
+        font-size: 14px;
+        line-height: 140.19%;
+    }
+    .top-sellers-box {
+        padding-left: 19px;
+        gap: 25px;
+        margin-top: 9px;
+    }
+
+    .sellers-number {
+        width: 38px;
+        display: flex;
+        justify-content: end;
+    }
+    .top-sellers-left {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+    }
+    .top-sellers-left span {
+        font-size: 13.8072px;
+        line-height: 32px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .top-sellers-left div {
+        display: flex;
+        flex-direction: column;
+        margin-left: -2.5px;
+    }
+    .top-sellers-left small {
+        font-size: 9.97186px;
+        line-height: 32px;
+        gap: 1px;
+        margin-top: -7px;
+    }
+    .top-sellers-item img {
+        width: 51px;
+    }
+    .sellers-number {
+        width: 28px;
+    }
+    .procent-button {
+        width: 73px;
+        height: 26px;
+        border-radius: 12.7057px;
+        margin-right: 12px;
+    }
+    .procent-button small {
+        font-size: 10.6564px;
+        line-height: 34px;
+    }
+}

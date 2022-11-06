@@ -1,0 +1,238 @@
+.six-section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+    /*background: rgba(32, 8, 59, 1);*/
+}
+.s6-background {
+    background: url('../img/s6-fon.png');
+    background-size: cover;
+    width: 100%;
+    height: 557px;
+}
+.s6-container {
+    position: relative;
+    max-width: 1438px;
+    display: grid;
+    flex-direction: row;
+    padding: 0px 58px 0px 25px;
+    margin-top: -341px;
+}
+.s6-nft-info {
+    position: relative;
+    width: 577.05px;
+    height: 473.14px;
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 55px 47px 50px 68px;
+
+    border: 3px solid;
+    border-image: linear-gradient(113.62deg, #616161 0%, #6161618c 70%, rgba(255, 255, 255, 0) 96.25%) 30;
+
+
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(72.8013px);
+    border-radius: 2.88322px;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+.s6-nft-info h1 {
+    font-family: 'Inter-Bold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44.5093px;
+    line-height: 60px;
+}
+.s6-nft-info p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35.5px;
+}
+.s6-nft-info span {
+    display: flex;
+    gap: 45px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 61px;
+    letter-spacing: 0.07rem;
+}
+.s6-nft-info a {
+    display: flex;
+    gap: 8px;
+}
+
+
+.seven-section {
+    position: relative;
+    max-width: 1438px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 161px 30px 0px 27px;
+    gap: 77px;
+}
+.seven-section img {
+    width: 700px;
+    order: 1;
+}
+
+.subscribe-box {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    order: 2;
+}
+.subscribe-box h2 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 37px;
+    word-spacing: 0.06rem;
+    letter-spacing: 0.11rem;
+}
+.subscribe-box p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.8983px;
+    line-height: 35px;
+}
+.subscribe-box form {
+    display: flex;
+    gap: 6px;
+}
+#nft-email {
+    width: 275px;
+    height: 57px;
+    margin-left: -2px;
+    background: #F4F5F7;
+    border-radius: 5.5273px 0px 0px 5.5273px;
+    padding-left: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.4764px;
+}
+#email-button {
+    width: 148px;
+    height: 57px;
+
+    backdrop-filter: blur(115.619px);
+    border-radius: 0px 5.5273px 5.5273px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.4764px;
+    color: #ffffff;
+}
+
+@media (max-width: 991.98px) {
+    .six-section {
+        padding: 0px 0px 0px 0px;
+    }
+    .s6-background {
+        height: 300px;
+    }
+    .s6-container {
+        display: flex;
+        justify-content: center;
+        padding: 0px 22px 0px 25px;
+        margin-top: -181px;
+    }
+    .s6-nft-info {
+        width: 334px;
+        height: 275px;
+        padding: 31.5px 28px 30px 38px;
+        margin-left: -7px;
+        margin-top: 4px;
+        gap: 3px;
+    }
+    .s6-nft-info h1 {
+        font-size: 25.87px;
+        line-height: 35px;
+    }
+    .s6-nft-info p {
+        font-size: 11.6415px;
+        line-height: 20.5px;
+
+    }
+    .s6-nft-info span {
+        font-size: 10px;
+        line-height: 24px;
+        letter-spacing: 0.015rem;
+        gap: 25px;
+        margin-top: 4px;
+    }
+    .s6-nft-info img {
+        width: 8px;
+    }
+    .s6-nft-info a {
+        gap: 5.5px;
+    }
+
+    .seven-section img {
+        order: 2;
+        margin-left: -1.5px;
+        width: 326px;
+        height: 380px;
+    }
+    .subscribe-box {
+        order: 1;
+        width: 324px;
+    }
+    
+    .seven-section {
+        justify-content: center;
+        padding: 108.5px 25px 0px 27px;
+        gap: 108px;
+    }
+    .subscribe-box {
+        gap: 10px;
+    }
+    .subscribe-box h2 {
+        font-size: 24px;
+        line-height: 33px;
+        word-spacing: 0.01rem;
+        letter-spacing: 0.094rem;
+    }
+    .subscribe-box p {
+        font-size: 13.1351px;
+        line-height: 23px;
+    }
+    .subscribe-box form {
+        margin-top: 5px;
+        gap: 6px;
+        padding: 2px 0px 0px 0px;
+    }
+    #nft-email {
+        width: 181px;
+        height: 36px;
+        border-radius: 3.64865px 0px 0px 3.64865px;
+        font-size: 10.2162px;
+        line-height: 18px;
+        padding-left: 13px;
+        border: transparent;
+    }
+    #email-button {
+        width: 98px;
+        height: 36px;
+        border: 2px solid transparent;
+        border-radius: 0px 3.64865px 3.64865px 0px;
+        font-size: 10.2162px;
+        line-height: 15px;
+        padding-left: 2.5px;
+    }
+}
+

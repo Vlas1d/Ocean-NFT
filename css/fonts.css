@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: local('Orbitron'), url('../fonts/Orbitron-VariableFont_wght.ttf') format('woff');
+}
+@font-face {
+    font-family: 'Spartan';
+    src: url('../fonts/Spartan-SemiBold.woff2') format('woff2'),
+      url('../fonts/Spartan-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+@font-face {
+    font-family: 'Rajdhani';
+    src: local('Rajdhani'), url('../fonts/Rajdhani-Regular.ttf') format('woff');
+}
+@font-face {
+    font-family: 'Aldrich';
+    src: local('Aldrich'), url('../fonts/Aldrich-Regular.ttf') format('woff');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), url('../fonts/Roboto-Regular.ttf') format('woff');
+}
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'), url('../fonts/Inter-VariableFont_slnt,wght.ttf') format('woff');
+}
+@font-face {
+    font-family: 'Inter-Bold';
+    src: local('Inter'), url('../fonts/Inter-ExtraBold.ttf') format('woff');
+}
+@font-face {
+    font-family: 'MuseoModerno';
+    src: local('Inter'), url('../fonts/MuseoModerno-VariableFont_wght.ttf') format('woff');
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Inter'), url('../fonts/Lato-Bold.ttf') format('woff');
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: local('Inter'), url('../fonts/Lato-Regular.ttf') format('woff');
+}
